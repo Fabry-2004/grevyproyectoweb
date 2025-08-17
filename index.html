@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREVY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ledger&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Gloock&family=Ledger&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Gloock&family=Ledger&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bowlby+One+SC&family=Gloock&family=Ledger&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+
+    <header>
+        <!--LOGO DE ENCABEZADO-->
+        <img class="logogrevy" src="./imagenes/logo_empresa.jpg" alt="LOGO DE LA EMPRESA">
+
+        <!--MENU DE NAVEGACION-->
+        <nav>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="./paginas/proyectos.html">PROYECTOS</a></li>
+                <li><a href="./paginas/contacto.html">CONTACTO</a></li>
+
+                <!--BOOTSTRAP 1-->
+                <li><button type="button" class="btn btn-warning"><a href="https://grevyshops.mercadoshops.com.ar/">TIENDA</a></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--BIENVENIDA-->
+        <section>
+            <div class="presentacion2">
+                <h2 class="somosgrevy"><strong>¡SOMOS GREVY!</strong></h2>
+                <p class="text1">AQUEL QUE PUEDE OFRECERTE CUEROS, SINTÉTICOS Y TELAS EN TODAS LAS VARIEDADES Y USOS QUE NECESITES</p>
+                <p class="text2">LLEVAMOS MÁS DE 20 AÑOS ACOMPAÑANDO CADA PROYECTO QUE PUEDAS IMAGINAR</p>
+            </div>
+        </section>
+
+        <section class="bienvenida">
+            <h1><i>¿BUSCAS CONFECCIONAR CON MATERIA DE ALTA CALIDAD O INNOVAR ALGO ACTRACTIVAMENTE NUEVO?</i></h1>
+            <h2><i>ESTE LUGAR ES PARA VOS</i></h2>
+            <a href="./paginas/conocenos.html" class="bienvenida1">CONOCENOS</a>
+        </section>
+        
+        <!--PRESENTACIÓN AL PUBLICO-->
+        <section class="presentacion">
+            <div class="presentacion1">
+                <h2>IMAGINA TU ESPACIO TAL COMO LO QUERES</h2>
+                <h3>NOSOTROS ESTAMOS PARA HACERLO REALIDAD</h3>
+            </div>
+            
+            <!--BOOSTSTRAP2-->
+            <div id="carouselExampleIndicators" class="carousel slide">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagenes/gridpractica2.jpg" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/gridpractica3.jpg" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/gridpractica4.jpg" class="d-block" alt="...">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!--UBICACIONES DE LOS SHOWROOMS-->
+        <section class="ubicaciones">
+
+            <div class="ubicaciones1">
+                <h2><strong>¡CONOCE NUESTROS SHOWROOMS!</strong></h2>
+                <h3><strong>PODES VISITARNOS EN PARQUE CHACABUCO Y RECOLETA</strong></h3>
+            </div>
+
+            <!--SHOWROOM PARQUE CHACABUCO-->
+            <div class="ubicaciones2">
+                <img src="./imagenes/showroom_pq.jpg" alt="SHOWROOM PARQUE CHACABUCO">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104983.61126742934!2d-58.66077028761395!3d-34.68656513753509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbace271e91f%3A0xcc249ab6d665831!2sGrevy%20Cueros!5e0!3m2!1ses!2sar!4v1753060497352!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p><strong>UBICADO EN AV. LA PLATA 1413 ESTA NUESTRO SHOWROOM PRINCIPAL, DONDE ENCONTRAS UNA GRAN DISPONIBILIDAD Y UN EXCLUSIVO ASESORAMIENTO PARA QUE GARANTIZAR TUS NECESIDADES</strong></p>
+            </div>
+            
+            <!--SHOWROOM RECOLETA-->
+            <div class="ubicaciones3">
+                <p><strong>EN LIBERTAD 1254 ENCONTRAS NUESTRO EXCLUSIVO SHOWROOM DE DECORACIÓN CREADO PARA QUE PUEDAS APRECIAR CADA UNO DE NUESTROS ARTICULOS COMODAMENTE Y TAMBIÉN CON UN ASESORAMIENTO PERSONALIZADO PARA QUE RESUELVAS TODAS TUS DUDAS</strong></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104983.61126742934!2d-58.66077028761395!3d-34.68656513753509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab9f4ce7a77%3A0x8692e8a6beaeb9e8!2sGrevy%20Cueros!5e0!3m2!1ses!2sar!4v1753060536327!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <img src="./imagenes/showroom_r.jpg" alt="SHOWROOM RECOLETA">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <!--GRACIAS-->
+        <section class="gracias">
+            <h2>¡GRACIAS POR TU VISITA!</h2>
+        </section>
+
+        <!--SUSCRIPCION A LA EMPRESA-->
+        <section class="suscripcion">
+            <img class="logogrevy2" src="./imagenes/logo_empresa.jpg" alt="LOGO DE LA EMPRESA">
+            <div class="suscripcion2">
+                <form action=""></form>
+                <label for="">SUSCRIBITE PARA CONOCER NUEVOS INGRESOS Y OBTENER OFERTAS EXCLUSIVAS</label>
+                <input class="formulario" type="email" name="email" id="email">
+                <input type="submit" value="ENVIAR">
+            </div>
+        </section>
+
+        <!--REDES SOCIALES-->
+        <section class="redes">
+            <h2><strong>SEGUINOS</strong></h2>
+            <ul>
+                <li><a href="https://www.facebook.com/Grevycueros/?locale=es_LA"><img class="grevyfacebook" src="./imagenes/icono_facebook.jpg" alt=""></a></li>
+                <li><a href="https://www.instagram.com/cuerosgrevy/?hl=es"><img class="grevyinstagram" src="./imagenes/icono_instagram.jpg" alt=""></a></li>
+                <li><a href="https://www.tiktok.com/@grevycueros"><img class="grevytiktok" src="./imagenes/icono_tiktok.jpg" alt=""></a></li>
+            </ul>
+            <p>© 2003 - 2025 GREVY SRL</p>
+        </section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+</body>
+</html>

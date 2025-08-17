@@ -1,0 +1,465 @@
+/* ---------- INDEX ----------*/
+
+/* ----- HEADER ----- */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+nav {
+    width: 30%;
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.logogrevy {
+    margin: 15px 0px 0px 20px;
+    width: 250px;
+    height: 60px;
+}
+
+header ul {
+    list-style: none;
+    height: 75px;
+}
+
+/* ----- MAIN ----- */
+
+/* TITULO */
+.bienvenida {
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    height: 250px;
+}
+
+.bienvenida h1 {
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+}
+
+.bienvenida h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.bienvenida1 {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Gloock", serif;
+    padding: 25px;
+    background-color: #FF8904;
+    border: solid 0px ;
+    padding-top: 5px 5px;
+    border-radius: 1rem;    
+}
+
+.presentacion {
+    background-color: white;
+    letter-spacing: 3px;
+}
+
+.presentacion1 h2 {
+    color: black;
+    font-size: 30px;
+    font-family: "Gloock", serif;
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.presentacion1 h3 {
+    color: black;
+    font-size: 25px;
+    font-family: "Gloock", serif;
+    text-align: center;
+    height: 50px;
+}
+
+.presentacion2 {
+    background-color: #5289ff;
+    height: 200px;
+}
+
+.presentacion2 h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    height: 75px;
+    padding-top: 20px;
+}
+
+.presentacion2 p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.carousel-inner {
+    background-color: black;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 45px;
+    padding-left: 30%;
+}
+
+.d-block{
+    width: 750px;
+    height: 750px;
+}
+
+.ubicaciones {
+    background-color: #EEEEEE;
+    height: 980px;
+}
+
+.ubicaciones1 h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.ubicaciones1 h3{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ubicaciones2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+.ubicaciones2 img {
+    width: 300px;
+}
+
+.ubicaciones2 iframe {
+    width: 400px;
+    height: 420px;
+    margin-left: 25px;
+} 
+
+.ubicaciones2 p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 1400px;
+    height: 400px;
+    padding: 150px 100px
+
+}
+
+.ubicaciones3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ubicaciones3 p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 90px;
+    width: 900px;
+    height: 392px;
+    padding: 100px 40px;
+}
+
+.ubicaciones3 iframe{
+    width: 600px;
+    height: 390px;
+    padding-right: 20px;
+}
+
+.ubicaciones3 img {
+    width: 500px;
+    margin-right: 25px;
+    padding-bottom: 19px;
+}
+
+/* ----- FOOTER ----- */
+
+.gracias {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    height: 85px;
+    padding: 20px 0px;
+}
+
+.logogrevy2 {
+    margin: 3px 0px;
+    width: 250px;
+    height: 60px;
+}
+
+.suscripcion {
+    font-size: 20px;
+    color: white;
+    background-color: #5289ff;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.suscripcion2 {
+    margin-right: 213px;
+}
+
+.formulario {
+    margin-left: 15px;
+}
+
+.redes {
+    background-color: white;
+    height: 200px;
+}
+
+.redes h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.redes p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    height: 35px;
+    margin-top: 59px;
+    padding: 5px 5px;
+}
+
+.redes ul {
+   display: grid;
+   grid-template-areas: 
+   "0 1 2 3 4 5 6"
+   "0 1 2 3 4 5 6"
+   "0 1 2 3 4 5 6";
+}
+
+.grevyfacebook {
+    width: 135px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 1;
+    margin-left: 575px;
+}
+
+.grevyinstagram {
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 3;
+}
+
+.grevytiktok {
+    width: 90px;
+    height: 80px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+/* ---------- CONOCENOS ----------*/
+
+.catalogospresetacion {
+    color: white;
+    background-color: #7ac9c2;
+    font-family: "PT Serif", serif;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    margin: 15px 0px 20px 0px;
+}
+.catalogospresetacion h1 {
+    font-size: 35px;
+}
+
+.catalogospresetacion h2 {
+    font-size: 25px;
+}
+
+.catalogospresetacion1 {
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    width: 1501px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 209px;
+}
+
+.catalogos {
+    display: flex;
+    width: 1500px;
+    height: 630px;
+    margin-left: 11%;
+    margin-bottom: 15px;
+}
+
+.catalogos img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1.75s ease;
+}
+
+.catalogos img:hover {
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/* ---------- PROYECTOS ----------*/
+
+.liderdecoracion{
+    background-color: rgb(133, 133, 133);
+    display: block;
+    text-align: center;
+    height: 650px;
+}
+
+.liderdecoracion h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(86, 156, 86);
+    height: 60px;
+    padding: 15px 0px;
+}
+
+.liderdecoracion p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: initial;
+    padding: 20px 15px;
+    grid-area: 5;
+}
+
+.liderdecoracion img {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+
+.conoce {
+    font-size: 33px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 35px;
+    background-color: #FF8904;
+    padding-top: 5px 5px;
+    border-radius: 1rem; 
+}
+
+/* ---------- CONTACTO ----------*/
+
+.formu {
+    background-color: #B7C2D2;
+    width: 1200px;
+    height: 750px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    display: grid;
+   grid-template-areas: 
+   "0 1"
+   "0 2"
+   "0 3"
+   "0 4"
+   "0 5"
+   "0 6";
+   grid-template-columns: 3fr 3fr;
+   grid-template-rows: 2fr;
+   border: #5289ff solid 5px;
+
+}
+
+.formu h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50%;
+    grid-template-areas: 0;    
+}
+
+.nombrecliente {
+    font-size: 20px;
+    height: 50px;
+    margin-top: 150px;
+    grid-template-areas: 1;
+}
+
+.cliente {
+    grid-template-areas: 2;
+    font-size: 20px;
+    height: 50px;
+}
+
+.ubicaciondcliente {
+    grid-template-areas: 3;
+    font-size: 20px;
+    height: 50px;
+}
+
+.emailcliente {
+    grid-template-areas: 4;
+    font-size: 20px;
+    height: 50px;
+}
+
+.mensajecliente {
+    grid-template-areas: 5;
+    font-size: 20px;
+    height: 50px;
+}
+
+.enviar {
+    grid-template-areas: 6;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
