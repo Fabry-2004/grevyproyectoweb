@@ -1,6 +1,5 @@
 /* ---------- INDEX ----------*/
 
-/* ----- HEADER ----- */
 * {
     padding: 0px;
     margin: 0px;
@@ -11,10 +10,17 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* ----- HEADER ----- */
 header {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+}
+
+.logogrevy {
+    margin: 15px 0px 0px 20px;
+    width: 200px;
+    height: 50px;
 }
 
 nav {
@@ -32,13 +38,7 @@ ul {
 header a {
     color: black;
     text-decoration: none;
-    font-size: 1.3rem;
-}
-
-.logogrevy {
-    margin: 15px 0px 0px 20px;
-    width: 250px;
-    height: 60px;
+    font-size: 1.2rem;
 }
 
 header ul {
@@ -47,419 +47,1402 @@ header ul {
 }
 
 /* ----- MAIN ----- */
-
-/* TITULO */
 .bienvenida {
-    background-color: black;
-    padding: 25px;
+    background-color: rgb(94, 149, 250);
+    height: 130px;
+}
+
+.bienvenida1 h1 {
+    font-size: 40px;
+    color: white;
     text-align: center;
-    font-family: "PT Serif", serif;
-    height: 250px;
+    padding-top: 15px;
 }
 
-.bienvenida h1 {
-    font-size: 30px;
+.bienvenida1 p {
+    font-size: 27px;
     color: white;
-    padding: 5px;
+    text-align: center;
+    margin-bottom: 50px
 }
 
-.bienvenida h2 {
-    font-size: 30px;
+/*BOOTSTRAP 2*/
+.fondo {
+    background-color: black;
+}
+
+.carousel-inner {
+    width: 730px;
+    height: 725px;
+    background-color: black;
+    margin-left: 31%;
+}
+
+.carousel-inner img {
+    height: 685px;
+}
+
+/*CATALOGOS*/
+.invitacion {
+    text-align: center;
     color: white;
+    background-color: black;
+    height: 225px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    padding-top: 20px;
 }
 
-.bienvenida1 {
+.invitacion1 h2{
+    font-size: 35px;
+}
+
+.invitacion h3 {
+    font-size: 35px;
+}
+
+.conoce {
     font-size: 30px;
     text-decoration: none;
     color: white;
     font-family: "Gloock", serif;
-    padding: 25px;
+    padding: 20px;
     background-color: #FF8904;
     border: solid 0px ;
-    padding-top: 5px 5px;
-    border-radius: 1rem;    
+    padding: 20px 10px;
+    border-radius: 1rem;
 }
 
-.presentacion {
-    background-color: white;
-    letter-spacing: 3px;
+/*SHOWROOMS*/
+.showrooms {
+    background-color: rgb(93, 151, 93);
+    height: 590px;
 }
 
-.presentacion1 h2 {
-    color: black;
-    font-size: 30px;
-    font-family: "Gloock", serif;
-    text-align: center;
-    height: 50px;
-    margin-top: 20px;
-}
-
-.presentacion1 h3 {
-    color: black;
-    font-size: 25px;
-    font-family: "Gloock", serif;
-    text-align: center;
-    height: 50px;
-}
-
-.presentacion2 {
-    background-color: #5289ff;
-    height: 200px;
-}
-
-.presentacion2 h2 {
+.invishowroom{
     font-size: 40px;
     color: white;
     text-align: center;
-    height: 75px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-.presentacion2 p {
-    font-size: 25px;
+.showrooms1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*SHOWROOM PARQUE CHACABUCO*/
+.parqueq {
+    background-color: white;
+    width: 700px;
+    margin-left: 40px;
+}
+
+.parqueq h2 {
     color: white;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.carousel-inner {
     background-color: black;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    padding-bottom: 45px;
-    padding-left: 30%;
-}
-
-.d-block{
-    width: 750px;
-    height: 750px;
-}
-
-.ubicaciones {
-    background-color: #EEEEEE;
-    height: 980px;
-}
-
-.ubicaciones1 h2 {
-    color: black;
-    font-size: 30px;
+    justify-content: center;
     text-align: center;
-    padding-top: 15px;
-    margin-bottom: 10px;
-}
-
-.ubicaciones1 h3{
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.ubicaciones2 {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 25px;
-    margin-bottom: 30px;
-}
-
-.ubicaciones2 img {
-    width: 300px;
-}
-
-.ubicaciones2 iframe {
-    width: 400px;
-    height: 420px;
-    margin-left: 25px;
-} 
-
-.ubicaciones2 p {
-    color: black;
     font-size: 25px;
-    text-align: center;
-    width: 1400px;
+    padding: 10px 0px 10px 25px;
+}
+
+.parqueq1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.showroompq {
+    width: 200px;
     height: 400px;
-    padding: 150px 100px
-
+    margin: 10px;
 }
 
-.ubicaciones3 {
-    display: flex;
-    justify-content: flex-end;
+.maps1 {
+    width: 200px;
+    height: 400px;
+    margin: 10px 15px 25px 0px;
 }
 
-.ubicaciones3 p {
-    color: black;
-    font-size: 25px;
+.parqueq1 p {
+    font-size: 22px;
     text-align: center;
-    margin-right: 90px;
-    width: 900px;
-    height: 392px;
-    padding: 100px 40px;
-}
-
-.ubicaciones3 iframe{
-    width: 600px;
-    height: 390px;
-    padding-right: 20px;
-}
-
-.ubicaciones3 img {
-    width: 500px;
-    margin-right: 25px;
-    padding-bottom: 19px;
-}
-
-/* ----- FOOTER ----- */
-
-.gracias {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    background-color: black;
-    height: 85px;
-    padding: 20px 0px;
-}
-
-.logogrevy2 {
-    margin: 3px 0px;
+    padding: 10px;
     width: 250px;
-    height: 60px;
+    height: 300px;
+    margin-top: 80px;
 }
 
-.suscripcion {
-    font-size: 20px;
+/*SHOWROOM RECOLETA*/
+.recoleta {
+    background-color: white;
+    width: 1100px;
+    margin-left: 25px;
+}
+
+.recoleta h2 {
     color: white;
-    background-color: #5289ff;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 25px;
+}
+
+.recoleta1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.showroomr {
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+
+.maps2 {
+   width: 200px;
+   height: 400px;
+   margin: 10px 0px 25px 15px;
+}
+
+.recoleta1 p {
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    width: 375px;
+    height: 350px;
+    margin-top: 80px;
+    margin-right: 5px;
+}
+
+/*DESPEDIDA*/
+.gracias {
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 80px;
+}
+
+
+.gracias h2 {
+    font-size: 15px;
+}
+
+.gracias h3 {
+    font-size: 15px;
+}
+
+/*SUSCRIPCION*/
+.suscripcion {
+    color: white;
+    background-color: #9d31f5;
     height: 75px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 350px;
 }
 
 .suscripcion2 {
-    margin-right: 213px;
+    font-size: 15px;
 }
 
-.formulario {
-    margin-left: 15px;
+.logogrevy2 {
+    width: 200px;
+    height: 50px;
+    margin-right: 25px;
 }
 
-.redes {
-    background-color: white;
-    height: 200px;
+/* -----FOOTER----- */
+
+/*REDES SOCIALES*/
+.redes{
+    height: 300px;
 }
 
 .redes h2 {
     font-size: 30px;
+    color: black;
+    margin-top: 15px;
     text-align: center;
-    margin: 15px 0px;
-}
-
-.redes p {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    background-color: black;
-    height: 35px;
-    margin-top: 59px;
-    padding: 5px 5px;
-}
-
-.redes ul {
-   display: grid;
-   grid-template-areas: 
-   "0 1 2 3 4 5 6"
-   "0 1 2 3 4 5 6"
-   "0 1 2 3 4 5 6";
 }
 
 .grevyfacebook {
-    width: 135px;
+    width: 130px;
     height: 75px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     grid-area: 1;
-    margin-left: 575px;
 }
 
 .grevyinstagram {
+    grid-area: 2;
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.grevylinkedin {
     width: 80px;
     height: 75px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     grid-area: 3;
+
 }
 
 .grevytiktok {
-    width: 90px;
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 4;
+
+}
+
+.grevyyoutube {
+    width: 130px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 5;
+}
+
+/*CONTACTO*/
+
+/*COPYRIGHT*/
+.copyright {
+    color: white;
+    font-size: 20px;
+    margin-top: 250px;
+    text-align: center;
+    background-color: black;
+}
+
+/* ----------PROYECTOS---------- */
+
+/*GRUPO E+D*/
+.grupo {
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 62, 255);
+    height: 100px;
+}
+
+.grupo h1 {
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.lider {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 400px;
+}
+
+.lider h2 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.lider p {
+    font-size: 17px;
+}
+
+.lider img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.conocerlider {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Gloock", serif;
+    padding: 20px;
+    background-color: #FF8904;
+    border: solid 0px ;
+    padding: 20px 10px;
+    border-radius: 1rem;
+}
+
+/*CLIENTES*/
+.clientes h2 {
     height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.clientes1 {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fontenla img {
+    width: 625px;
+    height: 450px;
+}
+
+.manifesto img {
+    width: 625px;
+    height: 450px;
+}
+
+.lugonez img {
+    width: 625px;
+    height: 450px;
+}
+
+@media screen and (max-width: 1279px) {
+    /* ----- HEADER ----- */
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.logogrevy {
+    margin: 15px 0px 0px 20px;
+    width: 200px;
+    height: 50px;
+}
+
+nav {
+    width: 30%;
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header ul {
+    list-style: none;
+    height: 75px;
+}
+
+/* ----- MAIN ----- */
+.bienvenida {
+    background-color: rgb(94, 149, 250);
+    height: 130px;
+}
+
+.bienvenida1 h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.bienvenida1 p {
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px
+}
+
+/*BOOTSTRAP 2*/
+.carousel-inner {
+    height: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-inner img {
+    width: 1000px;
+    height: 300px;
+}
+
+/*CATALOGOS*/
+.invitacion {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 225px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.invitacion1 h2{
+    font-size: 35px;
+}
+
+.invitacion h3 {
+    font-size: 35px;
+}
+
+.conoce {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Gloock", serif;
+    padding: 20px;
+    background-color: #FF8904;
+    border: solid 0px ;
+    padding: 20px 10px;
+    border-radius: 1rem;
+}
+
+/*SHOWROOMS*/
+.showrooms {
+    background-color: rgb(93, 151, 93);
+    height: 1015px;
+}
+
+.showrooms1 h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*SHOWROOM PARQUE CHACABUCO*/
+.parqueq {
+    background-color: white;
+    width: 1000px;
+    margin-left: 10px;
+
+}
+
+.parqueq h2 {
+    color: white;
+    background-color: black;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px 0px 10px 25px;
+}
+
+.parqueq1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.showroompq {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+}
+
+.maps1 {
+    width: 200px;
+    height: 400px;
+    margin: 10px 15px 25px 0px;
+}
+
+.parqueq1 p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*SHOWROOM RECOLETA*/
+.recoleta {
+    background-color: white;
+    width: 1300px;
+    margin: 15px 0px 0px 598px;
+}
+
+.recoleta h2 {
+    color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: end;
+    font-size: 30px;
+    padding: 10px 25px;
+}
+
+.recoleta1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.showroomr {
+    width: 800px;
+    height: 350px;
+}
+
+.maps2 {
+    width: 200px;
+    height: 350px;
+}
+
+.recoleta1 p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+/*DESPEDIDA*/
+.gracias {
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 80px;
+}
+
+/*SUSCRIPCION*/
+.suscripcion {
+    color: white;
+    background-color: #9d31f5;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 350px;
+}
+
+.logogrevy2 {
+    width: 200px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+/* -----FOOTER----- */
+
+/*REDES SOCIALES*/
+.redes{
+    height: 300px;
+}
+
+.redes h2 {
+    font-size: 30px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.grevyfacebook {
+    width: 130px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 1;
+}
+
+.grevyinstagram {
+    grid-area: 2;
+    width: 80px;
+    height: 75px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
 
-/* ---------- CONOCENOS ----------*/
+.grevylinkedin {
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 3;
 
-.catalogospresetacion {
-    color: white;
-    background-color: #7ac9c2;
-    font-family: "PT Serif", serif;
-    height: 80px;
-    text-align: center;
-    align-items: center;
-    margin: 15px 0px 20px 0px;
-}
-.catalogospresetacion h1 {
-    font-size: 35px;
 }
 
-.catalogospresetacion h2 {
-    font-size: 25px;
+.grevytiktok {
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 4;
+
 }
 
-.catalogospresetacion1 {
-    color: white;
-    font-size: 25px;
-    background-color: black;
-    width: 1501px;
-    height: 50px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 25px 0px 0px 209px;
-}
-
-.catalogos {
-    display: flex;
-    width: 1500px;
-    height: 630px;
-    margin-left: 11%;
-    margin-bottom: 15px;
-}
-
-.catalogos img {
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: 1.75s ease;
-}
-
-.catalogos img:hover {
-    width: 400px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-
-/* ---------- PROYECTOS ----------*/
-
-.liderdecoracion{
-    background-color: rgb(133, 133, 133);
-    display: block;
-    text-align: center;
-    height: 650px;
-}
-
-.liderdecoracion h1 {
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    background-color: rgb(86, 156, 86);
-    height: 60px;
-    padding: 15px 0px;
-}
-
-.liderdecoracion p {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    font-family: initial;
-    padding: 20px 15px;
+.grevyyoutube {
+    width: 130px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
     grid-area: 5;
 }
 
-.liderdecoracion img {
-    width: 300px;
+/*CONTACTO*/
+
+/*COPYRIGHT*/
+.copyright {
+    color: white;
+    font-size: 20px;
+    margin-top: 250px;
+    text-align: center;
+    background-color: black;
+}
+
+/* ----------PROYECTOS---------- */
+
+/*GRUPO E+D*/
+.grupo {
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 62, 255);
+    height: 100px;
+}
+
+.grupo h1 {
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.lider {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 400px;
+}
+
+.lider h2 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.lider p {
+    font-size: 17px;
+}
+
+.lider img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.conocerlider {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Gloock", serif;
+    padding: 20px;
+    background-color: #FF8904;
+    border: solid 0px ;
+    padding: 20px 10px;
+    border-radius: 1rem;
+}
+
+/*CLIENTES*/
+.clientes h2 {
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.clientes1 {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fontenla img {
+    width: 625px;
+    height: 450px;
+}
+
+.manifesto img {
+    width: 625px;
+    height: 450px;
+}
+
+.lugonez img {
+    width: 625px;
+    height: 450px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    /* ----- HEADER ----- */
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.logogrevy {
+    margin: 15px 0px 0px 20px;
+    width: 200px;
+    height: 50px;
+}
+
+nav {
+    width: 30%;
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header ul {
+    list-style: none;
+    height: 75px;
+}
+
+/* ----- MAIN ----- */
+.bienvenida {
+    background-color: rgb(94, 149, 250);
+    height: 130px;
+}
+
+.bienvenida1 h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.bienvenida1 p {
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px
+}
+
+/*BOOTSTRAP 2*/
+.carousel-inner {
+    height: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-inner img {
+    width: 1000px;
     height: 300px;
-    padding: 30px;
+}
+
+/*CATALOGOS*/
+.invitacion {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 225px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.invitacion1 h2{
+    font-size: 35px;
+}
+
+.invitacion h3 {
+    font-size: 35px;
 }
 
 .conoce {
-    font-size: 33px;
+    font-size: 30px;
     text-decoration: none;
     color: white;
-    padding: 20px 35px;
+    font-family: "Gloock", serif;
+    padding: 20px;
     background-color: #FF8904;
-    padding-top: 5px 5px;
-    border-radius: 1rem; 
+    border: solid 0px ;
+    padding: 20px 10px;
+    border-radius: 1rem;
 }
 
-/* ---------- CONTACTO ----------*/
-
-.formu {
-    background-color: #B7C2D2;
-    width: 1200px;
-    height: 750px;
-    margin-left: 20%;
-    margin-bottom: 30px;
-    display: grid;
-   grid-template-areas: 
-   "0 1"
-   "0 2"
-   "0 3"
-   "0 4"
-   "0 5"
-   "0 6";
-   grid-template-columns: 3fr 3fr;
-   grid-template-rows: 2fr;
-   border: #5289ff solid 5px;
-
+/*SHOWROOMS*/
+.showrooms {
+    background-color: rgb(93, 151, 93);
+    height: 1015px;
 }
 
-.formu h1 {
+.showrooms1 h2 {
+    font-size: 40px;
+    color: white;
     text-align: center;
-    font-size: 50px;
-    padding-top: 50%;
-    grid-template-areas: 0;    
+    padding-top: 10px;
 }
 
-.nombrecliente {
+/*SHOWROOM PARQUE CHACABUCO*/
+.parqueq {
+    background-color: white;
+    width: 1000px;
+    margin-left: 10px;
+
+}
+
+.parqueq h2 {
+    color: white;
+    background-color: black;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px 0px 10px 25px;
+}
+
+.parqueq1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.showroompq {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+}
+
+.maps1 {
+    width: 200px;
+    height: 400px;
+    margin: 10px 15px 25px 0px;
+}
+
+.parqueq1 p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*SHOWROOM RECOLETA*/
+.recoleta {
+    background-color: white;
+    width: 1300px;
+    margin: 15px 0px 0px 598px;
+}
+
+.recoleta h2 {
+    color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: end;
+    font-size: 30px;
+    padding: 10px 25px;
+}
+
+.recoleta1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.showroomr {
+    width: 800px;
+    height: 350px;
+}
+
+.maps2 {
+    width: 200px;
+    height: 350px;
+}
+
+.recoleta1 p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+/*DESPEDIDA*/
+.gracias {
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 80px;
+}
+
+/*SUSCRIPCION*/
+.suscripcion {
+    color: white;
+    background-color: #9d31f5;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 350px;
+}
+
+.logogrevy2 {
+    width: 200px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+/* -----FOOTER----- */
+
+/*REDES SOCIALES*/
+.redes{
+    height: 300px;
+}
+
+.redes h2 {
+    font-size: 30px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.grevyfacebook {
+    width: 130px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 1;
+}
+
+.grevyinstagram {
+    grid-area: 2;
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.grevylinkedin {
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 3;
+
+}
+
+.grevytiktok {
+    width: 80px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 4;
+
+}
+
+.grevyyoutube {
+    width: 130px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    grid-area: 5;
+}
+
+/*CONTACTO*/
+
+/*COPYRIGHT*/
+.copyright {
+    color: white;
     font-size: 20px;
-    height: 50px;
-    margin-top: 150px;
-    grid-template-areas: 1;
+    margin-top: 250px;
+    text-align: center;
+    background-color: black;
 }
 
-.cliente {
-    grid-template-areas: 2;
+/* ----------PROYECTOS---------- */
+
+/*GRUPO E+D*/
+.grupo {
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 62, 255);
+    height: 100px;
+}
+
+.grupo h1 {
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.lider {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 400px;
+}
+
+.lider h2 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.lider p {
+    font-size: 17px;
+}
+
+.lider img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.conocerlider {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Gloock", serif;
+    padding: 20px;
+    background-color: #FF8904;
+    border: solid 0px ;
+    padding: 20px 10px;
+    border-radius: 1rem;
+}
+
+/*CLIENTES*/
+.clientes h2 {
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.clientes1 {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fontenla img {
+    width: 625px;
+    height: 450px;
+}
+
+.manifesto img {
+    width: 625px;
+    height: 450px;
+}
+
+.lugonez img {
+    width: 625px;
+    height: 450px;
+}
+}
+
+@media screen and (max-width: 480px) {
+    /* ----- HEADER ----- */
+.logogrevy {
+    margin: 18px 0px 0px 10px;
+    width: 150px;
+    height: 40px;
+}
+
+nav {
+    width: 380px;
+    margin-top: 12px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    font-size: 11px;
+}
+
+header ul {
+    list-style: none;
+    height: 50px;
+}
+
+/* ----- MAIN ----- */
+.bienvenida {
+    height: 65px;
+}
+
+.bienvenida1 h1 {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.bienvenida1 p {
+    font-size: 12px;
+}
+
+/*BOOTSTRAP 2*/
+.carousel-inner {
+    width: 460px;
+    height: 575px;
+    background-color: black;
+    padding-top: 25px;
+    margin-left: 2%;
+}
+
+.carousel-inner img {
+    height: 500px;
+}
+
+/*CATALOGOS*/
+.invitacion {
+    height: 180px;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+.invitacion1 h2{
+    font-size: 15px;
+}
+
+.invitacion h3 {
+    font-size: 15px;
+}
+
+.conoce {
+    font-size: 25px;
+}
+
+/*SHOWROOMS*/
+.showrooms {
+    height: 2280px;
+}
+
+.invishowroom{
+    font-size: 25px;
+}
+
+.showrooms1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*SHOWROOM PARQUE CHACABUCO*/
+.parqueq {
+    width: 450px;
+    height: 1180px;
+    margin-left: 15px;
+}
+
+.parqueq h2 {
     font-size: 20px;
-    height: 50px;
 }
 
-.ubicaciondcliente {
-    grid-template-areas: 3;
+.parqueq1 {
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.showroompq {
+    width: 400px;
+    height: 500px;
+    margin-left: 25px;
+    
+}
+
+.maps1 {
+    width: 400px;
+    height: 400px;
+    margin: 5px 0px 10px 25px;
+}
+
+.parqueq1 p {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    width: 405px;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/*SHOWROOM RECOLETA*/
+.recoleta {
+    width: 450px;
+    margin-left: 15px;
+}
+
+.recoleta h2 {
     font-size: 20px;
-    height: 50px;
-}
-
-.emailcliente {
-    grid-template-areas: 4;
-    font-size: 20px;
-    height: 50px;
-}
-
-.mensajecliente {
-    grid-template-areas: 5;
-    font-size: 20px;
-    height: 50px;
-}
-
-.enviar {
-    grid-template-areas: 6;
-    height: 50px;
-    margin-top: 50px;
     text-align: center;
 }
+
+.recoleta1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.showroomr {
+    width: 430px;
+    height: 270px;
+    margin: 10px;
+}
+
+.maps2 {
+   width: 425px;
+   height: 400px;
+   margin: 10px 0px 5px 10px;
+}
+
+.recoleta1 p {
+    padding: 10px;
+    width: 375px;
+    height: 230px;
+    margin-top: 0px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+/*DESPEDIDA*/
+.gracias {
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+
+}
+
+.gracias h2 {
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.gracias h3 {
+    font-size: 20px;
+}
+
+/*SUSCRIPCION*/
+.suscripcion {
+    height: 75px;
+    padding-left: 0px;
+}
+
+.logogrevy2 {
+    width: 150px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.suscripcion2 {
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+/* -----FOOTER----- */
+
+/*REDES SOCIALES*/
+.redes{
+    height: 60px;
+}
+
+.grevyfacebook {
+    width: 90px;
+    height: 50px;
+}
+
+.grevyinstagram {
+    width: 55px;
+    height: 55px;
+}
+
+.grevylinkedin {
+    width: 55px;
+    height: 55px;
+}
+
+.grevytiktok {
+    width: 65px;
+    height: 65px;
+}
+
+.grevyyoutube {
+    width: 100px;
+    height: 60px;
+}
+
+/*CONTACTO*/
+
+/*COPYRIGHT*/
+.copyright {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+/* ----------PROYECTOS---------- */
+
+/*GRUPO E+D*/
+.grupo {
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 62, 255);
+    height: 100px;
+}
+
+.grupo h1 {
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.lider {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 400px;
+}
+
+.lider h2 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.lider p {
+    font-size: 17px;
+}
+
+.lider img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.conocerlider {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Gloock", serif;
+    padding: 20px;
+    background-color: #FF8904;
+    border: solid 0px ;
+    padding: 20px 10px;
+    border-radius: 1rem;
+}
+
+/*CLIENTES*/
+.clientes h2 {
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.clientes1 {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fontenla img {
+    width: 625px;
+    height: 450px;
+}
+
+.manifesto img {
+    width: 625px;
+    height: 450px;
+}
+
+.lugonez img {
+    width: 625px;
+    height: 450px;
+}
+}
+
+
+
+
+
+
+
+
