@@ -1,0 +1,160 @@
+/*FORMULARIOS*/
+.formu {
+    height: 785px;
+    display: flex;
+    flex-direction: row;
+
+    /* --- MAYORISTA --- */
+    .mayorista {
+        background-color: rgb(160, 47, 154);
+        width: 800px;
+        height: 725px;
+        margin: 15px 20px 0px 120px;
+        border: black solid 1px;
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /*NOMBRE DEL CLIENTE*/
+        .nombrecliente {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+
+            label {
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            input {
+                width: 300px;
+                height: 35px;
+                margin: 5px 0px 0px 240px;
+            }
+        }
+
+        /*CLIENTE-COMPAÑIA*/
+        .cliente {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+
+            label {
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            input {
+                width: 300px;
+                height: 35px;
+                margin: 5px 0px 0px 240px;
+            }
+        }
+
+        /*UBICACION DEL CLIENTE*/
+        .ubicaciondcliente {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+
+            label {
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                margin-bottom: 5px;
+
+                select {
+                    text-align: center;
+                    width: 300px;
+                    height: 35px;
+                    margin: 5px 0px 0px 240px;
+                }
+            }
+        }
+
+        /*EMAIL DEL CLIENTE*/
+        .emailcliente {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+
+            label {
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            input {
+                width: 300px;
+                height: 35px;
+                margin: 5px 0px 0px 240px;
+            }
+        }
+
+        /*MENSAJE DEL CLIENTE*/
+        .mensajecliente {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+
+            label {
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            textarea {
+                width: 600px;
+                height: 200px;
+                margin: 3px 0px 0px 100px;
+            }
+        }
+
+        /*BOTON DE ENVIAR*/
+        .enviar {
+            text-align: center;
+
+            input {
+                width: 500px;
+                height: 50px;
+                color: white;
+                font-size: 25px;
+                background-color: #FF8904;
+                border: none;
+            }
+        }
+    }
+
+    /* --- MINORISTA --- */
+    .minorista {
+        background-color: rgb(48, 98, 192);
+        width: 800px;
+        height: 725px;
+        margin: 15px 0px 0px 50px;
+        border: black solid 2px;
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /*NOMBRE DEL CLIENTE*/
+        .nombrecliente1 {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                text-align: center;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+    }
+}

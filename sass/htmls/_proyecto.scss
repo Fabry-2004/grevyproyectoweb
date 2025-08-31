@@ -1,0 +1,79 @@
+/*GRUPO E+D*/
+.hoteleria {
+    .grupo {
+        color: white;
+        text-align: center;
+        background-color: rgb(49, 62, 255);
+        height: 100px;
+
+        h1 {
+            font-size: 35px;
+            padding-top: 15px;
+        }
+    }
+
+    .lider {
+        color: white;
+        text-align: center;
+        background-color: black;
+        height: 400px;
+
+        h2 {
+            font-size: 35px;
+            padding-top: 10px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 25px;
+        }
+
+        .conocerlider {
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+            font-family: "Gloock", serif;
+            padding: 20px;
+            background-color: #FF8904;
+            border: solid 0px;
+            padding: 20px 10px;
+            border-radius: 1rem;
+        }
+    }
+}
+
+/*CLIENTES*/
+.clientes {
+    h2 {
+        height: 80px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .clientes1 {
+        height: 480px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .fontenla img {
+            width: 625px;
+            height: 450px;
+        }
+
+        .manifesto img {
+            width: 625px;
+            height: 450px;
+        }
+
+        .lugonez img {
+            width: 625px;
+            height: 450px;
+        }
+    }
+}
