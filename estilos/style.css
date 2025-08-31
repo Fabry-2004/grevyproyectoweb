@@ -260,11 +260,31 @@ header ul {
 
 /*REDES SOCIALES*/
 .redes {
-    height: 200px;
+    height: 100px;
 }
 
 .seguinos {
+    width: 250px;
+    height: 50px;
     text-align: center;
+    padding-top: 5px;
+    background-color: rgb(49, 106, 121);
+    margin-top: 10px;
+    margin-left: 43%;
+}
+
+.seguinos h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.rsociales {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5%;
+    margin-left: 33.5%;
 }
 
 .grevyfacebook {
@@ -272,11 +292,9 @@ header ul {
     height: 75px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
-    grid-area: 1;
 }
 
 .grevyinstagram {
-    grid-area: 2;
     width: 80px;
     height: 75px;
     filter: brightness(1.1);
@@ -286,10 +304,9 @@ header ul {
 .grevylinkedin {
     width: 80px;
     height: 75px;
+    margin: 0px 25px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
-    grid-area: 3;
-
 }
 
 .grevytiktok {
@@ -297,25 +314,57 @@ header ul {
     height: 75px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
-    grid-area: 4;
-
 }
 
 .grevyyoutube {
     width: 130px;
     height: 75px;
+    margin-right: 15px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
-    grid-area: 5;
 }
 
 /*COPYRIGHT*/
 .copyright {
     color: white;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
     background-color: black;
+}
+
+.suscripcionee {
+    display: flex;
+    flex-direction: column;
+}
+
+.suscripcion22 form {
+    display: flex;
+    flex-direction: column;
+        border: #9d31f5 solid 3px;
+
+}
+
+.suscripcion22 label {
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color: #9d31f5;
+    width: 580px;
+    height: 30px;
+}
+
+.formulario {
+    width: 300px;
+    height: 30px;
+    margin-left: 8%;
+}
+
+.formularioo {
+    width: 300px;
+    height: 30px;
+    margin-left: 8%;
 }
 
 /* ---------- PROYECTOS ---------- */
@@ -380,6 +429,7 @@ header ul {
     flex-direction: row;
     justify-content: space-around;
 }
+
 .fontenla img {
     width: 625px;
     height: 450px;
@@ -416,13 +466,14 @@ header ul {
 .mayorista h1 {
     color: white;
     text-align: center;
+    margin-top: 10px;
 }
 
 /*NOMBRE DEL CLIENTE*/
 .nombrecliente {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .nombrecliente label {
@@ -441,7 +492,7 @@ header ul {
 .cliente {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .cliente label {
@@ -458,28 +509,30 @@ header ul {
 
 /*UBICACION DEL CLIENTE*/
 .ubicaciondcliente {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
 }
 
 .ubicaciondcliente label {
     color: white;
     text-align: center;
     font-size: 20px;
-    margin: 3px 0px 0px 127px;
+   margin-bottom: 5px;
 }
 
 .ubicaciondcliente select {
     text-align: center;
     width: 300px;
     height: 35px;
-    
+    margin: 5px 0px 0px 240px;
 }
 
 /*EMAIL DEL CLIENTE*/
 .emailcliente {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .emailcliente label {
@@ -491,8 +544,9 @@ header ul {
 .emailcliente input {
     width: 300px;
     height: 35px;
-    margin: 3px 0px 0px 240px;
+    margin: 5px 0px 0px 240px;
 }
+
 /*MENSAJE DEL CLIENTE*/
 .mensajecliente {
     display: flex;
@@ -520,6 +574,10 @@ header ul {
 .enviar input {
     width: 500px;
     height: 50px;
+    color: white;
+    font-size: 25px;
+    background-color: #FF8904;
+    border: none;
 }
 
 /* --- MINORISTA --- */
@@ -532,44 +590,119 @@ header ul {
 }
 
 .minorista h1 {
-    
+    color: white;
     text-align: center;
-    margin: 15px 0px;
+    margin-top: 10px;
 }
 
 /*NOMBRE DEL CLIENTE*/
 .nombrecliente1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombrecliente1 label {
     text-align: center;
-    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nombrecliente1 input {
+    width: 300px;
+    height: 35px;
+    margin: 5px 0px 0px 240px;
 }
 
 /*CLIENTE-COMPAÑIA*/
 .cliente1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cliente1 label {
+    color: white;
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.cliente1 input {
+    width: 300px;
+    height: 35px;
+    margin: 5px 0px 0px 240px;
 }
 
 /*UBICACION DEL CLIENTE*/
 .ubicaciondcliente1 {
     text-align: center;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ubicaciondcliente1 label {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ubicaciondcliente1 select {
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    margin: 5px 0px 0px 240px;
 }
 
 /*EMAIL DEL CLIENTE*/
 .emailcliente1 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
+}
+
+.emailcliente1 label {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.emailcliente1 input {
+    width: 300px;
+    height: 35px;
+    margin: 3px 0px 0px 240px;
 }
 
 /*MENSAJE DEL CLIENTE*/
 .mensajecliente1 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
+}
+
+.mensajecliente1 label {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mensajecliente1 textarea {
+    width: 600px;
+    height: 200px;
+    margin: 3px 0px 0px 100px;
 }
 
 /*BOTON DE ENVIAR*/
 .enviar1 {
     text-align: center;
+    
+}
+
+.enviar1 input {
+    width: 500px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    background-color: #FF8904;
+    border: none;
 }
 
 @media screen and (max-width: 1279px) {
@@ -1294,21 +1427,8 @@ header ul {
 
 @media screen and (max-width: 480px) {
     /* ----- HEADER ----- */
-.logogrevy {
-    margin: 18px 0px 0px 10px;
-    width: 150px;
-    height: 40px;
-}
-
-nav {
-    width: 380px;
-    margin-top: 12px;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
+.header {
+    width: 480px;
 }
 
 header a {
@@ -1316,9 +1436,24 @@ header a {
 }
 
 header ul {
+    display: flex;
+    align-items: end;
     list-style: none;
     height: 50px;
 }
+
+.logogrevy {
+    margin: 18px 0px 0px 10px;
+    width: 150px;
+    height: 40px;
+}
+
+nav {
+    width: 300px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
 
 /* ----- MAIN ----- */
 .bienvenida {
