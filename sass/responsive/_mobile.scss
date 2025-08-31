@@ -1,0 +1,315 @@
+@media screen and (max-width: 480px) {
+    /* ----- HEADER ----- */
+.header {
+    width: 480px;
+}
+
+header a {
+    font-size: 11px;
+}
+
+header ul {
+    display: flex;
+    align-items: end;
+    list-style: none;
+    height: 50px;
+}
+
+.logogrevy {
+    margin: 18px 0px 0px 10px;
+    width: 150px;
+    height: 40px;
+}
+
+nav {
+    width: 300px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+
+/* ----- MAIN ----- */
+.bienvenida {
+    height: 65px;
+}
+
+.bienvenida1 h1 {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.bienvenida1 p {
+    font-size: 12px;
+}
+
+/*BOOTSTRAP 2*/
+.carousel-inner {
+    width: 460px;
+    height: 575px;
+    background-color: black;
+    padding-top: 25px;
+    margin-left: 2%;
+}
+
+.carousel-inner img {
+    height: 500px;
+}
+
+/*CATALOGOS*/
+.invitacion {
+    height: 180px;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+.invitacion1 h2{
+    font-size: 15px;
+}
+
+.invitacion h3 {
+    font-size: 15px;
+}
+
+.conoce {
+    font-size: 25px;
+}
+
+/*SHOWROOMS*/
+.showrooms {
+    height: 2280px;
+}
+
+.invishowroom{
+    font-size: 25px;
+}
+
+.showrooms1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*SHOWROOM PARQUE CHACABUCO*/
+.parqueq {
+    width: 450px;
+    height: 1180px;
+    margin-left: 15px;
+}
+
+.parqueq h2 {
+    font-size: 20px;
+}
+
+.parqueq1 {
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.showroompq {
+    width: 400px;
+    height: 500px;
+    margin-left: 25px;
+    
+}
+
+.maps1 {
+    width: 400px;
+    height: 400px;
+    margin: 5px 0px 10px 25px;
+}
+
+.parqueq1 p {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    width: 405px;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/*SHOWROOM RECOLETA*/
+.recoleta {
+    width: 450px;
+    margin-left: 15px;
+}
+
+.recoleta h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.recoleta1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.showroomr {
+    width: 430px;
+    height: 270px;
+    margin: 10px;
+}
+
+.maps2 {
+   width: 425px;
+   height: 400px;
+   margin: 10px 0px 5px 10px;
+}
+
+.recoleta1 p {
+    padding: 10px;
+    width: 375px;
+    height: 230px;
+    margin-top: 0px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+/*DESPEDIDA*/
+.gracias {
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+
+}
+
+.gracias h2 {
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.gracias h3 {
+    font-size: 20px;
+}
+
+/*SUSCRIPCION*/
+.suscripcion {
+    height: 75px;
+    padding-left: 0px;
+}
+
+.logogrevy2 {
+    width: 150px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.suscripcion2 {
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+/* -----FOOTER----- */
+
+/*REDES SOCIALES*/
+.redes {
+    width: 100px;
+    height: 100px;
+}
+
+.redes h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.grevyfacebook {
+    width: 90px;
+    height: 50px;
+}
+
+.grevyinstagram {
+    width: 55px;
+    height: 55px;
+}
+
+.grevylinkedin {
+    width: 55px;
+    height: 55px;
+}
+
+.grevytiktok {
+    width: 65px;
+    height: 65px;
+}
+
+.grevyyoutube {
+    width: 100px;
+    height: 60px;
+}
+
+/*CONTACTO*/
+
+/*COPYRIGHT*/
+.copyright {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+/* ----------PROYECTOS---------- */
+
+/*GRUPO E+D*/
+.grupo {
+    height: 90px;
+}
+
+.grupo h1 {
+    font-size: 12px;
+}
+
+.grupo p {
+    font-size: 11px;
+}
+
+.lider {
+    height: 300px;
+}
+
+.lider h2 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.lider p {
+    font-size: 15px;
+}
+
+.lider img {
+    width: 100px;
+    height: 100px;
+}
+
+.conocerlider {
+    font-size: 15px;
+}
+
+/*CLIENTES*/
+.clientes h2 {
+    font-size: 20px;
+    height: 30px;
+}
+
+.clientes1 {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.fontenla img {
+    width: 280px;
+    height: 200px;
+}
+
+.manifesto img {
+    width: 280px;
+    height: 200px;
+}
+
+.lugonez img {
+    width: 280px;
+    height: 200px;
+}
+}
